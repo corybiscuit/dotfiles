@@ -103,3 +103,20 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dotfm="~/trilby/dotfm.sh"
+
+# git aliases
+alias gs="git status --short"
+
+alias gd="git diff"
+
+alias ga="git add"
+alias ga="git commit"
+
+alias gp="git push"
+alias gu="git pull"
+
+alias gl="git log"
+alias gb="git branch"
+
+alias gi="git init"
+alias gcl="git clone"
