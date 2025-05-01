@@ -1,0 +1,21 @@
+# ~/.config/git/config
+
+[user]
+  name = corybiscuit
+  email = cory@bsct.io
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+
+[url "git@github.com:"]
+  insteadOf = "github:"
+
+[init]
+  defaultBranch = main
+
+[status]
+  branch = true
+  showStash = true
+  showUntrackedFiles = all
