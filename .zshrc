@@ -124,3 +124,7 @@ alias gb="git branch"
 
 alias gi="git init"
 alias gcl="git clone"
+
+
+# enable starship theme
+eval "$(starship init zsh)"
