@@ -74,6 +74,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# enabling zsh-autosuggetions and zsh-syntax-highlighting
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
